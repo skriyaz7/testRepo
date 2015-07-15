@@ -10,4 +10,9 @@
 
 @implementation testbrach
 
+-(void) helloWorld
+{
+    NSLog(@"test commit");
+}
+
 @end
