@@ -14,6 +14,7 @@
 		E143A0DE1B562251006B229B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E143A0DD1B562251006B229B /* Images.xcassets */; };
 		E143A0E11B562251006B229B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E143A0DF1B562251006B229B /* LaunchScreen.xib */; };
 		E143A0ED1B562251006B229B /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E143A0EC1B562251006B229B /* testGitTests.m */; };
+		E143A0F81B563064006B229B /* testbrach.m in Sources */ = {isa = PBXBuildFile; fileRef = E143A0F71B563064006B229B /* testbrach.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E143A0E61B562251006B229B /* testGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E143A0EB1B562251006B229B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E143A0EC1B562251006B229B /* testGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitTests.m; sourceTree = "<group>"; };
+		E143A0F61B563064006B229B /* testbrach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testbrach.h; sourceTree = "<group>"; };
+		E143A0F71B563064006B229B /* testbrach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testbrach.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				E143A0D51B562251006B229B /* AppDelegate.m */,
 				E143A0D71B562251006B229B /* ViewController.h */,
 				E143A0D81B562251006B229B /* ViewController.m */,
+				E143A0F61B563064006B229B /* testbrach.h */,
+				E143A0F71B563064006B229B /* testbrach.m */,
 				E143A0DA1B562251006B229B /* Main.storyboard */,
 				E143A0DD1B562251006B229B /* Images.xcassets */,
 				E143A0DF1B562251006B229B /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				E143A0D91B562251006B229B /* ViewController.m in Sources */,
 				E143A0D61B562251006B229B /* AppDelegate.m in Sources */,
+				E143A0F81B563064006B229B /* testbrach.m in Sources */,
 				E143A0D31B562251006B229B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
